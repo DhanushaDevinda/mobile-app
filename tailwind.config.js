@@ -1,13 +1,16 @@
 /** @type {import('tailwindcss').Config} */
+const Colors = require('./constants/colors');
+
 module.exports = {
   content: ['./app/**/*.{js,jsx,ts,tsx}', './components/**/*.{js,jsx,ts,tsx}'],
   presets: [require('nativewind/preset')],
   theme: {
     extend: {
       colors: {
-        primary: '#0E4D92',
-        accent: '#F59E0B',
-        card: '#1A1A2E',
+        primary: Colors.primary,
+        accent: Colors.accent,
+        card: Colors.card,
+        text: Colors.text,
       },
       fontFamily: {
         sans: ['Rubik_400Regular'],

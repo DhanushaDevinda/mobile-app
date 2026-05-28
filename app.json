@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "React Native",
-    "slug": "React Native",
+    "name": "Supa Push",
+    "slug": "expo-supa-push",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",

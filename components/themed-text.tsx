@@ -1,6 +1,7 @@
 // components/themed-text.tsx
 
 import { Text, TextProps, StyleSheet } from 'react-native';
+import Colors from '../constants/colors';
 
 export type ThemedTextProps = TextProps & {
   type?: 'default' | 'title' | 'subtitle' | 'link';
@@ -28,7 +29,7 @@ export function ThemedText({
 const styles = StyleSheet.create({
   default: {
     fontSize: 16,
-    color: '#11181C',
+    color: Colors.text.default,
   },
   title: {
     fontSize: 32,
@@ -40,6 +41,6 @@ const styles = StyleSheet.create({
   },
   link: {
     fontSize: 16,
-    color: '#0a7ea4',
+    color: Colors.text.link,
   },
 });

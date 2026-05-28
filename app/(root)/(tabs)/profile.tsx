@@ -20,7 +20,7 @@ export default function ProfileScreen() {
   return (
     <SafeAreaView className='flex-1 bg-gray-50'>
       <View>
-        <Text>Tab [hjhjh]</Text>
+        <Text>Tab [Profile]</Text>
       </View>
       <TouchableOpacity onPress={handleSignOut}>
         <Text>SignOut</Text>

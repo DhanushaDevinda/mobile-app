@@ -16,8 +16,8 @@ async function sendPushNotification(expoPushToken: string) {
   const message = {
     to: expoPushToken,
     sound: 'default',
-    title: 'Hi tanga,',
-    body: 'Im your bobo!',
+    title: 'Test Notification',
+    body: 'This is a test notification message.',
     data: { someData: 'goes here' },
   };
 
