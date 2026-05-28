@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "mobile-app",
-    "slug": "expo-supa-push",
+    "name": "React Native",
+    "slug": "React Native",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -13,9 +13,7 @@
       "bundleIdentifier": "com.danusha-90.expo-supa-push"
     },
     "android": {
-      "permissions": [
-        "android.permissions.POST_NOTIFICATIONS"
-      ],
+      "permissions": ["android.permissions.POST_NOTIFICATIONS"],
       "adaptiveIcon": {
         "backgroundColor": "#E6F4FE",
         "foregroundImage": "./assets/images/android-icon-foreground.png",
